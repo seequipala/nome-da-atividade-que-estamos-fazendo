@@ -112,46 +112,4 @@ Agricola
 </head>
 <body>
 
-    <!-- Cabeçalho Principal -->
-    <header>
-        <h1>🌱 AgroTech: Tecnologias para o Campo</h1>
-        <p>Soluções inteligentes, agricultura de precisão e gestão agrícola simplificada para aumentar sua produtividade.</p>
-        <a href="#solucoes" class="btn">Conheça as Soluções</a>
-    </header>
-
-    <!-- Conteúdo do Site -->
-    <main class="container">
-        <h2 id="solucoes" class="section-title">Nossas Soluções Agrícolas</h2>
-
-        <div class="cards">
-            <!-- Card 1 -->
-            <div class="card">
-                <div class="icon">🛰️</div>
-                <h3>Sensoriamento Remoto</h3>
-                <p>Monitoramento de lavouras via satélite com índices vegetativos (NDVI) para detecção rápida de estresse hídrico e pragas.</p>
-            </div>
-
-            <!-- Card 2 -->
-            <div class="card">
-                <div class="icon">📡</div>
-                <h3>Internet das Coisas (IoT)</h3>
-                <p>Sensores em tempo real instalados no solo para controle automatizado de irrigação e dados meteorológicos precisos.</p>
-            </div>
-
-            <!-- Card 3 -->
-            <div class="card">
-                <div class="icon">📊</div>
-                <h3>Gestão de Safras</h3>
-                <p>Análise de dados de colheita, máquinas e insumos para otimizar custos e prever o rendimento de forma inteligente.</p>
-            </div>
-        </div>
-    </main>
-
-    <!-- Rodapé -->
-    <footer>
-        <p>&copy; 2026 AgroTech - Desenvolvido no GitHub Pages</p>
-        <p>Acesse o repositório deste projeto no <a href="https://github.com" target="_blank">GitHub</a></p>
-    </footer>
-
-</body>
-</html>
+    
