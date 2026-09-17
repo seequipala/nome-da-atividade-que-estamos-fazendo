@@ -1,46 +1,192 @@
-<!-- Título Principal -->
-<h1>Portal da Agricultura e Tecnologia</h1>
-<p>Bem-vindo ao nosso site sobre inovação, dados e soluções para o agronegócio.</p>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal da Agricultura e Tecnologia</title>
+    <style>
+        /* Estilos Gerais */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #2e3d30;
+            background-color: #f4f8f4;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
 
-<hr>
+        /* Cabeçalho */
+        header {
+            background-color: #1b4332;
+            color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            text-align: center;
+            border-bottom: 5px solid #52b788;
+        }
 
-<!-- Seção Sobre -->
-<h2>Sobre o Projeto</h2>
-<p>Este site tem como objetivo apresentar informações simples sobre o desenvolvimento de tecnologias voltadas para o campo.</p>
+        header h1 {
+            margin: 0;
+            color: #d8f3dc;
+            font-size: 2.2rem;
+        }
 
-<!-- Lista de Áreas de Atuação -->
-<h2>Áreas de Foco</h2>
-<ul>
-    <li><b>Monitoramento de Solo:</b> Análise de umidade e nutrientes.</li>
-    <li><b>Previsão do Tempo:</b> Acompanhamento de dados meteorológicos.</li>
-    <li><b>Gestão de Safras:</b> Controle de insumos e colheita.</li>
-</ul>
+        header p {
+            margin-top: 10px;
+            color: #b7e4c7;
+        }
 
-<!-- Tabela Simples de Dados -->
-<h2>Principais Culturas Monitoradas</h2>
-<table border="1">
-    <tr>
-        <th>Cultura</th>
-        <th>Época de Plantio</th>
-        <th>Status</th>
-    </tr>
-    <tr>
-        <td>Soja</td>
-        <td>Outubro / Novembro</td>
-        <td>Em crescimento</td>
-    </tr>
-    <tr>
-        <td>Milho</td>
-        <td>Fevereiro / Março</td>
-        <td>Planejamento</td>
-    </tr>
-</table>
+        /* Títulos */
+        h2 {
+            color: #2d6a4f;
+            border-bottom: 2px solid #74c69d;
+            padding-bottom: 8px;
+            margin-top: 30px;
+        }
 
-<br>
-<hr>
+        /* Listas e Destaques */
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
 
-<!-- Contato e Links -->
-<h2>Contato</h2>
-<p>Dúvidas ou sugestões? Entre em contato:</p>
-<p>Email: <a href="mailto:contato@exemplo.com">contato@exemplo.com</a></p>
-<p>Veja o código-fonte no <a href="https://github.com" target="_blank">GitHub</a>.</p>
+        ul li {
+            background-color: #ffffff;
+            margin-bottom: 8px;
+            padding: 12px;
+            border-left: 4px solid #52b788;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        ul li strong {
+            color: #1b4332;
+        }
+
+        /* Tabela Estilizada */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            background-color: #ffffff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th {
+            background-color: #2d6a4f;
+            color: #ffffff;
+            text-align: left;
+            padding: 12px;
+        }
+
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9fbf9;
+        }
+
+        /* Emblema de Status */
+        .status {
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 0.85em;
+            font-weight: bold;
+        }
+
+        .status-crescimento {
+            background-color: #d8f3dc;
+            color: #1b4332;
+        }
+
+        .status-planejamento {
+            background-color: #fff3cd;
+            color: #856404;
+        }
+
+        /* Rodapé e Links */
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #e9f5ed;
+            border-radius: 8px;
+        }
+
+        footer h2 {
+            margin-top: 0;
+        }
+
+        a {
+            color: #2d6a4f;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #52b788;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Portal da Agricultura e Tecnologia</h1>
+        <p>Bem-vindo ao nosso site sobre inovação, dados e soluções para o agronegócio.</p>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre o Projeto</h2>
+            <p>Este site tem como objetivo apresentar informações simples sobre o desenvolvimento de tecnologias voltadas para o campo.</p>
+        </section>
+
+        <section id="areas">
+            <h2>Áreas de Foco</h2>
+            <ul>
+                <li><strong>Monitoramento de Solo:</strong> Análise de umidade e nutrientes.</li>
+                <li><strong>Previsão do Tempo:</strong> Acompanhamento de dados meteorológicos.</li>
+                <li><strong>Gestão de Safras:</strong> Controle de insumos e colheita.</li>
+            </ul>
+        </section>
+
+        <section id="culturas">
+            <h2>Principais Culturas Monitoradas</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Cultura</th>
+                        <th>Época de Plantio</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Soja</strong></td>
+                        <td>Outubro / Novembro</td>
+                        <td><span class="status status-crescimento">Em crescimento</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Milho</strong></td>
+                        <td>Fevereiro / Março</td>
+                        <td><span class="status status-planejamento">Planejamento</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <h2>Contato</h2>
+        <p>Dúvidas ou sugestões? Entre em contato:</p>
+        <p>Email: <a href="mailto:contato@exemplo.com">contato@exemplo.com</a></p>
+        <p>Veja o código-fonte no <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
+    </footer>
+
+</body>
+</html>
